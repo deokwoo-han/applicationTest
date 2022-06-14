@@ -15,6 +15,6 @@ print(area_text)
 
 today_temper = weather_soup.find('div', {'class':'temperature_text'}).text #현재온도
 
-today_temper = today_temper[6:10]
+today_temper = today_temper[6:10]#
 
 print(today_temper)
